@@ -28,9 +28,9 @@ page updates to reflect the new slice.
 
 Required packages
 -----------------
-    
+    pip install streamlit pandas numpy matplotlib plotly
+
 """
-! pip install streamlit pandas numpy matplotlib plotly
 from datetime import date
 
 import matplotlib as plt
