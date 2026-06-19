@@ -67,7 +67,7 @@ def load_data():
     call. Every subsequent rerun (and there are many — every filter change
     triggers one) reuses the cached DataFrame, which keeps the app fast.
     """
-    df = pd.read_csv("samplesuperstore.csv")
+    df = pd.read_csv("final_output/samplesuperstore.csv")
 
     # Convert string dates into real datetimes so date_input can filter them.
     df["Order Date"] = pd.to_datetime(df["Order Date"], format="%m/%d/%Y")
