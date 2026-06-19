@@ -38,6 +38,12 @@ import numpy as np
 import pandas as pd
 import plotly.express as px
 import streamlit as st
+import os
+
+
+
+st.write("Current directory:", os.getcwd())
+st.write("Files here:", os.listdir())
 
 
 # ---------------------------------------------------------------------------
